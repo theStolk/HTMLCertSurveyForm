@@ -1,0 +1,237 @@
+CERTIFICATION
+
+survery form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Fantasy 14 Survey Form</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <main>
+    <h1 id="title">Final Fantasy 14 Survey Form</h1>
+    <p id="description">Please fill out the form below to participate in our Final Fantasy XIV survey.</p>
+    <section>
+      <div class="container">
+        <h1>Final Fantasy XIV Survey</h1>
+        <form id="survey-form">
+          <label id="name-label" for="name">First Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label id="number-label" for="number">Age:</label>
+          <input type="number" id="number" name="number" min="1" max="120" placeholder="Enter your age" required>
+
+          <label for="server">Server Name:</label>
+          <input type="text" id="server" name="server" placeholder="Enter your server name">
+
+          <label>What’s your favourite Final Fantasy? (Select up to three):</label>
+          <div>
+            <input type="checkbox" name="fav_ff" value="FF1">FF1
+            <input type="checkbox" name="fav_ff" value="FF2">FF2
+            <input type="checkbox" name="fav_ff" value="FF3">FF3
+            <input type="checkbox" name="fav_ff" value="FF4">FF4
+            <input type="checkbox" name="fav_ff" value="FF5">FF5
+            <input type="checkbox" name="fav_ff" value="FF6">FF6
+            <input type="checkbox" name="fav_ff" value="FF7">FF7
+            <input type="checkbox" name="fav_ff" value="FF8">FF8
+            <input type="checkbox" name="fav_ff" value="FF9">FF9
+            <input type="checkbox" name="fav_ff" value="FF10">FF10
+            <input type="checkbox" name="fav_ff" value="FF11">FF11
+            <input type="checkbox" name="fav_ff" value="FF12">FF12
+            <input type="checkbox" name="fav_ff" value="FF13">FF13
+            <input type="checkbox" name="fav_ff" value="FF14">FF14
+            <input type="checkbox" name="fav_ff" value="FF15">FF15
+            <input type="checkbox" name="fav_ff" value="FF16">FF16
+          </div>
+
+          <label for="expansion">What is your favourite FFXIV expansion?</label>
+          <select id="expansion" name="expansion">
+            <option value="Heavensward">Heavensward</option>
+            <option value="Stormblood">Stormblood</option>
+            <option value="Shadowbringer">Shadowbringer</option>
+            <option value="Endwalker">Endwalker</option>
+            <option value="Dawntrail">Dawntrail</option>
+          </select>
+
+          <label for="job">What is your favourite FFXIV job?</label>
+          <select id="job" name="job">
+            <option value="Dragoon">Dragoon</option>
+            <option value="Ninja">Ninja</option>
+            <option value="Black Mage">Black Mage</option>
+            <option value="Monk">Monk</option>
+            <option value="Samurai">Samurai</option>
+            <option value="White Mage">White Mage</option>
+            <option value="Bard">Bard</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Scholar">Scholar</option>
+            <option value="Summoner">Summoner</option>
+            <option value="Warrior">Warrior</option>
+            <option value="Astrologian">Astrologian</option>
+            <option value="Dark Knight">Dark Knight</option>
+            <option value="Reaper">Reaper</option>
+            <option value="Red Mage">Red Mage</option>
+            <option value="Sage">Sage</option>
+            <option value="Dancer">Dancer</option>
+            <option value="Gunbreaker">Gunbreaker</option>
+            <option value="Machinist">Machinist</option>
+            <option value="Pictomancer">Pictomancer</option>
+            <option value="Viper">Viper</option>
+          </select>
+
+          <label for="role">What is your favourite FFXIV role?</label>
+          <select id="role" name="role">
+            <option value="Healer">Healer</option>
+            <option value="Tank">Tank</option>
+            <option value="DPS">DPS</option>
+          </select>
+
+          <label for="villain">Who is your favourite FFXIV villain?</label>
+          <select id="villain" name="villain">
+            <option value="Emet-Selch">Emet-Selch</option>
+            <option value="Elidibus">Elidibus</option>
+            <option value="Lahabrea">Lahabrea</option>
+            <option value="Zenos Yae Galvus">Zenos Yae Galvus</option>
+            <option value="Gaius Van Balsar">Gaius Van Balsar</option>
+            <option value="Meteion">Meteion</option>
+            <option value="Yotsuyu">Yotsuyu</option>
+            <option value="Fandaniel">Fandaniel</option>
+            <option value="Asahi">Asahi</option>
+            <option value="Nidhogg">Nidhogg</option>
+            <option value="Vauthry">Vauthry</option>
+          </select>
+
+          <label for="side_character">Who is your favourite FFXIV side character?</label>
+          <select id="side_character" name="side_character">
+            <option value="Alphinaud">Alphinaud</option>
+            <option value="Alisaie">Alisaie</option>
+            <option value="Y'shtola">Y'shtola</option>
+            <option value="Thancred">Thancred</option>
+            <option value="Urianger">Urianger</option>
+            <option value="Lyse">Lyse</option>
+            <option value="G’raha">G’raha</option>
+            <option value="Estinien">Estinien</option>
+            <option value="Krile">Krile</option>
+            <option value="Tataru">Tataru</option>
+            <option value="Minfilia">Minfilia</option>
+          </select>
+
+          <label for="preference">Do you prefer DoH or DoL?</label>
+          <select id="preference" name="preference">
+            <option value="DoH">DoH</option>
+            <option value="DoL">DoL</option>
+            <option value="no_pref">No Preference</option>
+          </select>
+
+          <label for="ultimate_weapon">What are your favourite ultimate weapons?</label>
+          <select id="ultimate_weapon" name="ultimate_weapon">
+            <option value="Heavensward">Heavensward</option>
+            <option value="Stormblood">Stormblood</option>
+            <option value="Shadowbringer">Shadowbringer</option>
+            <option value="Endwalker">Endwalker</option>
+            <option value="Dawntrail">Dawntrail</option>
+          </select>
+
+          <label for="relic_weapon">What are your favourite relic weapons?</label>
+          <select id="relic_weapon" name="relic_weapon">
+            <option value="Heavensward">Heavensward</option>
+            <option value="Stormblood">Stormblood</option>
+            <option value="Shadowbringer">Shadowbringer</option>
+            <option value="Endwalker">Endwalker</option>
+            <option value="Dawntrail">Dawntrail</option>
+          </select>
+
+          <label for="bozja_eureka">Do you prefer Bozja or Eureka?</label>
+          <select id="bozja_eureka" name="bozja_eureka">
+            <option value="Bozja">Bozja</option>
+            <option value="Eureka">Eureka</option>
+            <option value="neither">Neither</option>
+          </select>
+
+          <label for="dropdown">Select a category:</label>
+          <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+          </select>
+
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male">Male
+          <input type="radio" id="female" name="gender" value="female">Female
+
+          <label for="comments">Additional Comments:</label>
+          <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+styles.css
+
+<style>
+ body {
+  background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: rgba(55, 55, 255, 0.7);
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 60%;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto 0;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        h2 {
+          color: rgb(255, 255, 255)
+        }
+        .form-inline {
+          display:flex;
+          align-items: center;
+          gap: 20px;
+        }
+        .form-inline label {
+          margin-right: 10px;
+        }
+
+    </style> 
+
